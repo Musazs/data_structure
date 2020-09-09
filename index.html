@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>demo</title>
+</head>
+<body>
+    
+</body>
+<script type="module">
+    // import { _Array } from './src/array.js'
+    // const arr = new _Array();
+    // console.log(1, arr)
+    // for (let i = 0; i <= 10; i++) {
+    //     arr.AddLast(i)
+    // }
+    // console.log(2, arr);
+    // console.log(3, arr.String())
+
+    // arr.Remove(1);
+    // console.log(4, arr);
+
+    // arr.RemoveElement(8);
+    // console.log(5, arr)
+
+    // import { LinkedList } from './src/linkedList.js'
+    // const link = new LinkedList();
+    // for (let i = 0; i < 5; i++) {
+    //     link.AddFirst(i);
+    //     console.log(link.ToString())
+    // }
+    // link.Add(2, 666);
+    // console.log(link.ToString());
+
+    // link.Remove(2)
+    // console.log(link.ToString());
+
+    // import { ListStack } from './src/listStack.js'
+    // const link = new ListStack();
+    // for (let i = 0; i < 5; i++) {
+    //     link.AddFirst(i);
+    //     console.log(link.ToString())
+    // }
+    // link.pop()
+    // console.log(link.ToString());
+
+    // import {Sum} from './src/sum.js'
+    // const num = new Sum([1, 2, 3, 4,]);
+    // console.log(num)
+
+    // import {BST} from './src/tree/BST.js'
+    // const arr = [5, 3, 6, 8, 4, 2];
+    // let bst = new BST;
+    // arr.map(item => {
+    //     bst.add(item)
+    // });
+    // console.log(bst)
+    // console.log(111, bst.preOrder());
+    // console.log(222, bst.perOrderNR());
+    // console.log(333, bst.levelOrder());
+    // import { Dedup } from './dedup.js'
+
+    // const arr = [
+    //     {a: 1},
+    //     {a: 1},
+    //     1,
+    //     1,
+    //     '1',
+    //     '1'
+    // ];
+
+    // console.log(new Dedup(arr).deFun());
+
+    import { Set } from './src/set/Set.js'
+    const set = new Set();
+    const arr = [5, 3, 6, 8, 4, 2];
+    arr.map(item => {
+        set.add(item)
+    });
+    console.log(set.remove(5));
+    console.log(22, set)
+</script>
+</html>
